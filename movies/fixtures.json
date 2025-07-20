@@ -1,0 +1,34 @@
+[
+    {
+      "model": "movies.genre",
+      "pk": 1,
+      "fields": { "name": "Action" }
+    },
+    {
+      "model": "movies.genre",
+      "pk": 2,
+      "fields": { "name": "Comedy" }
+    },
+    {
+      "model": "movies.director",
+      "pk": 1,
+      "fields": { "name": "Christopher Nolan" }
+    },
+    {
+      "model": "movies.actor",
+      "pk": 1,
+      "fields": { "name": "Leonardo DiCaprio" }
+    },
+    {
+      "model": "movies.movie",
+      "pk": 1,
+      "fields": {
+        "title": "Inception",
+        "release_year": 2010,
+        "director": 1,
+        "genres": [1],
+        "actors": [1]
+      }
+    }
+  ]
+  
